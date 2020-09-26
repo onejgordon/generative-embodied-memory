@@ -2,7 +2,7 @@
 
 Below is our Working Memory model description submitted for the [2020 WBAI Modelathon](https://wba-initiative.org/en/15968/).
 
-![Image](images/GEM Diagram.png)
+![GEM System Diagram](images/gem_diagram.png)
 
 *Figure 1. Illustration of our computational model (right) next to a high level BIF diagram (left). The BIF file in spreadsheet format can be found [here](GEM_WMHackathon2020_BIF.xlsx).*
 
@@ -64,7 +64,7 @@ The two components of the controller are trained in parallel to produce action t
 
 *In the DMS task, actions may be defined as discrete saccadic outputs (e.g. left, right, up, down), and an optional keyboard command (e.g. left key, right key), as well as learned abstract action-transformations. In a simple trial of the task where color is the match-relevant symbol feature, the critic will learn to map the matched content representation (a ~= b) to high estimates of expected value (as shown in Figure 2.5). In parallel, the policy learns sensorimotor trajectories such as {a (red), a', b (red), a', a (red)}, which results in a hidden state that is easily exploited by a deterministic policy (`Pi(a=red, b=red) = left key`) and assigned a high value estimate by the critic.*
 
-![Image](images/GEM DMS.png)
+![GEM DMS representation walkthrough](images/gem_dms.png)
 
 *Figure 2. Illustration of trivial delayed match-to-sample trial, and associated hidden state representation. Node overlays represent content activated at each location. The colored noise overlay represents content ambiguity. Note that content at button locations d & e are never ambiguous, but post-keypress locations d' and e' are ambiguous until the a-b match is identified.*
 
