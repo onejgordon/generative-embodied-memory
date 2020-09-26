@@ -4,7 +4,9 @@ Below is our Working Memory model description submitted for the [2020 WBAI Model
 
 ![GEM System Diagram](images/gem_diagram.png)
 
-*Figure 1. Illustration of our computational model (right) next to a high level BIF diagram (left). The BIF file in spreadsheet format can be found [here](GEM_WMHackathon2020_BIF.xlsx).*
+*Figure 1. Illustration of our computational model (right) next to a high level BIF diagram (left).*
+
+The BIF file is shared as a [Google Sheet](https://docs.google.com/spreadsheets/d/1raTYA_x-xHLDhTCkVxzkSY2SE6Jf-EmvJvHKVQWD6hI/edit?usp=sharing) and as a [spreadsheet](GEM_WMHackathon2020_BIF.xlsx) in this repo.
 
 
 ## Working Memory as an (Embodied) Generative Model
